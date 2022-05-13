@@ -15,7 +15,7 @@ public class AccessLogger {
 	@Autowired
 	UserService userService;
 
-	@Scheduled(fixedDelay = 60000)
+//	@Scheduled(fixedDelay = 60000)
 	public void logAccess() {
 
 		User user = new User();
